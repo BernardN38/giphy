@@ -2,7 +2,6 @@ const API_KEY = 'PQAmIsKWKCxEhxIYPiwETZ9VkJD9vnyx';
 
 $('#search-btn').on('click', function() {
 	const searchTerm = $('#search-input').val();
-    if (searchTerm === '') return alert('Search term Required!')
 	searchGiphy(searchTerm);
 });
 
